@@ -1,5 +1,34 @@
-# HyBox
-一个 Vue.js 与 Electron 学习实践项目，部分复刻 WInUI 3。<br>
-（目前还没有什么实际功能）
-## 备注
-本应用的亚克力效果仅支持 Windows 11 操作系统。
+# 盒忆味工具箱
+
+一个基于 Electron 与 Vue 的实（无）用工具箱。
+
+## Recommended IDE Setup
+
+- [VSCode](https://code.visualstudio.com/) + [ESLint](https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint) + [Prettier](https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar)
+
+## Project Setup
+
+### Install
+
+```bash
+$ npm install
+```
+
+### Development
+
+```bash
+$ npm run dev
+```
+
+### Build
+
+```bash
+# For windows
+$ npm run build:win
+
+# For macOS
+$ npm run build:mac
+
+# For Linux
+$ npm run build:linux
+```
