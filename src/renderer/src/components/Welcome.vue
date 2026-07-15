@@ -13,7 +13,7 @@ onMounted(() => {
 })
 
 function completeFirstLaunch() {
-    // window.localStorage.firstLaunch = 'false'
+    window.localStorage.firstLaunch = 'false'
     firstLaunch.value = false
     setTimeout(() => {
         showWelcome.value = false
